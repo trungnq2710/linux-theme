@@ -9,6 +9,7 @@ echo -e "${COLOR_INFO}Install polybar started...${NC}"
 
 sudo apt install polybar
 
+mkdir -p ~/.config/polybar
 cp -r ./conf ~/.config/polybar
 
 bash ~/.config/polybar/launcher.sh
